@@ -5,8 +5,8 @@ import java.util.*;
 import java.util.regex.Pattern;
 /**
  * Dise Klasse soll den WortTrainer unter einem angegebenen Pfad speichern
- * @version 05-11-2020
  * @author Finn Färberböck
+ * @version 06-11-2020
  */
 
 public class WortTrainerHilfe {

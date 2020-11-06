@@ -3,8 +3,8 @@ package ffaerberboeck.Model;
 import java.util.Random;
 /**
  * Diese Klasse ist der Wort Trainer und ist der Motor der Klassen
- * @version 05-11-2020
  * @author Finn Färberböck
+ * @version 06-11-2020
  */
 public class WortTrainer {
     private WortListe wListe;
@@ -13,7 +13,7 @@ public class WortTrainer {
 
 
     /**
-     * Der Konstruktor der ein WortListe Objekt übernimmt
+     * Der Konstruktor der eine WortListe als Objekt übernimmt
      * @param lc    Die WortListe
      */
     public WortTrainer(WortListe lc) {
@@ -45,7 +45,7 @@ public class WortTrainer {
 
 
     /**
-     * Diese Methode sucht ein Index Wort
+     * Diese Methode sucht ein Wort an einem bestimmten Index
      * @return      das Wort
      */
     public WortEintrag getWortEintrag(int index) {
@@ -54,7 +54,7 @@ public class WortTrainer {
 
 
     /**
-     * Die Länge des Arrays
+     * Die Länge des Arrays wird zurückgegeben
      * @return      Die Länge in int
      */
     public int leange() {
@@ -66,7 +66,7 @@ public class WortTrainer {
 
 
     /**
-     * getter für Zahl
+     * getter Methode für Zahl
      * @return      Die akteulle Zahl
      */
     public int getZahl() {

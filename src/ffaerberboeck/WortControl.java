@@ -13,8 +13,9 @@ import java.io.IOException;
 import java.net.MalformedURLException;
 
 /**
- * Diese Klasse ist der Controller
-  
+ * Diese Klasse ist der Controller, er verlinkt die Klassen
+ * @author Finn Färberböck
+ * @version 06-11-2020
  */
 public class WortControl implements ActionListener{
     private WortPanel wPanel;

@@ -3,8 +3,8 @@ import javax.swing.*;
 
 /**
  * Diese Klasse bildet die GUI
- * @version 05-11-2020
  * @author Finn Färberböck
+ * @version 06-11-2020
  */
 public class WortFrame extends JFrame{
     /**

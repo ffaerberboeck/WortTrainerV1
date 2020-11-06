@@ -1,0 +1,10 @@
+Apfel;https://www.lebensbaum.com/files/styles/greige_image_476x476/public/images/greiges/apfel-suesserapfel1_0.jpg?itok=6AGJQzt4
+Ananas;https://www.lecker.de/assets/styles/300x225/public/field/image/ananas.jpg?itok=7rGdshcC
+Banane;https://www.lecker.de/assets/styles/300x225/public/lecker/warenkunde/banane/banane-q.jpg?itok=XFQecVfF
+Birne;https://www.lecker.de/assets/styles/300x225/public/lecker/warenkunde/birne/birne-q.jpg?itok=k8G0oY1J
+Erdbeere;https://www.lecker.de/assets/styles/300x225/public/field/image/erdbeere-b3.jpg?itok=E3zYYeYg
+Himbeere;https://www.lecker.de/assets/styles/300x225/public/lecker/warenkunde/beeren_1/himbeeren_1/himbeeren-q.jpg?itok=2EOP3odF
+Kirsche;https://www.lecker.de/assets/styles/300x225/public/lecker/warenkunde/kirsche/kirsche-q.jpg?itok=ZUrPS7Qn
+Mango;https://www.lecker.de/assets/styles/300x225/public/field/image/mango-b.jpg?itok=WRRhJ00J
+Weintraube;https://www.lecker.de/assets/styles/300x225/public/lecker/warenkunde/hbv_20/weintraube-q.jpg?itok=DQDOYTob
+Zitrone;https://www.lecker.de/assets/styles/300x225/public/field/image/zitrone-b.jpg?itok=g8IzLBdh

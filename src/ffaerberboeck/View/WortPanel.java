@@ -8,9 +8,9 @@ import java.net.MalformedURLException;
 import java.net.URL;
 
 /**
- * Diese Klasse baut die visual Components
- * @version 05-11-2020
+ * Diese Klasse baut das Innenleben der GUI
  * @author Finn Färberböck
+ * @version 06-11-2020
  */
 public class WortPanel extends JPanel{
     private int gesamt = 0;
@@ -179,7 +179,7 @@ public class WortPanel extends JPanel{
 
 
     /**
-     * Diese Methode ist noch nicht fertig geschrieben
+     * Diese Methode zählt die richtigen Wörter
      */
     public void richtig() {
         gesamt++;
@@ -191,7 +191,7 @@ public class WortPanel extends JPanel{
 
 
     /**
-     * Diese Methode ist noch nicht fertig geschrieben
+     * Diese Methode zählt die falschen Wörter
      */
     public void falsch() {
         gesamt++;
@@ -210,16 +210,5 @@ public class WortPanel extends JPanel{
         Image image = icon.getImage(); // umwandeln in ein Image-Objekt
         image = image.getScaledInstance(350, 350,  Image.SCALE_SMOOTH); // skalieren auf gewünschte Größe
         lImage.setIcon(icon);
-    }
-
-
-
-    /**
-     * Diese Methode ist noch nicht in Verwendung
-     * @param wt        Der WortTrainer
-     */
-    public void txtdateioutput(WortTrainer wt) {
-        String str = wt.toString();
-        System.out.println(str);
     }
 }

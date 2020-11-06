@@ -1,14 +1,14 @@
 package ffaerberboeck.Model;
 /**
  * Diese Klasse arbeitet um ein Array und bildet eine WortListe
- * @version 05-11-2020
  * @author Finn Färberböck
+ * @version 06-11-2020
  */
 public class WortListe {
-    private WortEintrag[] weintrag = new WortEintrag[1];
+    private WortEintrag[] weintrag;
 
     /**
-     * Der Konstruktor
+     * Der Konstruktor setzt den WortEintrag auf 0
      */
     public WortListe() {
         weintrag = new WortEintrag[0];
@@ -54,8 +54,8 @@ public class WortListe {
 
 
     /**
-     * Gibt Anzahl zurück
-     * @return              Die Anzahl
+     * Gibt die größe des Arrays zurück
+     * @return              Die Größe
      */
     public int wiegroßarray() {
         return weintrag.length;
@@ -64,7 +64,7 @@ public class WortListe {
 
 
     /**
-     * Diese Methode returned das Wort von einem mitgegebenden Index
+     * Diese Methode gibt das Wort von einem bestimmten Index zurück
      * @param index         Die zurückzugebene Stelle
      * @return              Der dazupassende Text
      */

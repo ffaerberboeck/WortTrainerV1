@@ -4,12 +4,25 @@ import ffaerberboeck.Model.WortEintrag;
 import ffaerberboeck.Model.WortListe;
 import ffaerberboeck.Model.WortTrainer;
 
-
+/**
+ * Diese Klasse ist eine Hilfsklasse die WortEinträge überprüft, sowie welche hinzufügt
+ * @author Finn Färberböck
+ * @version 06-11-2020
+ */
 public class WortTrainerFunktionen {
     private int richtig = 0;
     private int gesamt = 0;
 
     private String worteintrage[];
+
+
+
+    /**
+     * Diese Methode prüft das aktuelle Wort mit dem Input des Benutzers (übergeben aus dem Controller)
+     * @param aktuellwort       Das aktuelle Wort
+     * @param input             Der Input des Benutzers
+     * @return                  Stimmt oder nicht
+     */
     public boolean pruefe(String aktuellwort, String input) {
         boolean tf =false;
         if(aktuellwort.equals(input)) {
@@ -20,6 +33,11 @@ public class WortTrainerFunktionen {
         return tf;
     }
 
+
+    /**
+     * In dieser Methode werden WortEinträge hinzugefügt und in einem WortTrainer gespeichert
+     * @return          Der WortTrainer
+     */
     public WortTrainer addWortEintrage () {
         WortListe wl = new WortListe();
         WortEintrag wE1 = new WortEintrag("Apfel","https://www.lebensbaum.com/files/styles/greige_image_476x476/public/images/greiges/apfel-suesserapfel1_0.jpg?itok=6AGJQzt4");

@@ -2,8 +2,8 @@ package ffaerberboeck.Model;
 import java.util.regex.Pattern;
 /**
  * Die Klasse Wort Eintrag ist eine Reine Rückgabe/Überprüf Klasse
- * @version 05-11-2020
  * @author Finn Färberböck
+ * @version 06-11-2020
  */
 public class WortEintrag {
     private String wort = "";
@@ -12,7 +12,7 @@ public class WortEintrag {
 
 
     /**
-     * Der Konstruktor
+     * Der Konstruktor setzt Wort und Url auf einen Standart Wert
      */
     public WortEintrag() {
         wort = "Wort";
